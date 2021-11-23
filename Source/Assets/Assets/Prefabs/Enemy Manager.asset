@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e6d9c263890564f84780c27fec1aa0, type: 3}
+  m_Name: Enemy Manager
+  m_EditorClassIdentifier: 
+  player: {fileID: 11400000, guid: fd7a7bc7e5681c9468a7ea1ad6ffc21e, type: 2}
+  enemyBullte: {fileID: 11400000, guid: 5af1e9723f071f740b0dff720af170e8, type: 2}
+  gameScene: {fileID: 11400000, guid: 6d873a559971e2d44bb02e7ad1e95027, type: 2}
+  enemyList:
+  - prefab: {fileID: 1551055044611886361, guid: b9501d1a737c5714f925704680b646ef,
+      type: 3}
+    color: {r: 8, g: 0, b: 0.72156864, a: 0}
+    health: 250
+    healthPerLevel: 50
+    attackPower: 100
+    attackPowerPerLevel: 30
+    reloadSpeed: 100
+    reloadSpeedPerLevel: 20
+    experience: 50
+    experiencePerLevel: 15
+    moveStates:
+    - move: 2
+      attack: 1
+      time: 3
+      attackPowerScale: 20
+      reloadTime: 1
+      moveValue: 7
+      rotateValue: 3
+    - move: 3
+      attack: 1
+      time: 3
+      attackPowerScale: 20
+      reloadTime: 1
+      moveValue: 0
+      rotateValue: 4
+    - move: 1
+      attack: 3
+      time: 2
+      attackPowerScale: 20
+      reloadTime: 1
+      moveValue: 10
+      rotateValue: 4
+    - move: 3
+      attack: 1
+      time: 3
+      attackPowerScale: 20
+      reloadTime: 1
+      moveValue: 0
+      rotateValue: -4
+  - prefab: {fileID: 271331842562556016, guid: 36adf7099cad25a4c8bd2e327e34322f, type: 3}
+    color: {r: 0, g: 1.5514027, b: 5.960785, a: 0}
+    health: 200
+    healthPerLevel: 40
+    attackPower: 100
+    attackPowerPerLevel: 10
+    reloadSpeed: 100
+    reloadSpeedPerLevel: 20
+    experience: 50
+    experiencePerLevel: 15
+    moveStates:
+    - move: 1
+      attack: 0
+      time: 4
+      attackPowerScale: 12
+      reloadTime: 0.6
+      moveValue: 0
+      rotateValue: 8
+    - move: 1
+      attack: 3
+      time: 3
+      attackPowerScale: 0
+      reloadTime: 0
+      moveValue: 9
+      rotateValue: 10
+    - move: 3
+      attack: 1
+      time: 3
+      attackPowerScale: 10
+      reloadTime: 0.5
+      moveValue: 0
+      rotateValue: 10
+    - move: 2
+      attack: 3
+      time: 2
+      attackPowerScale: 0
+      reloadTime: 0
+      moveValue: 6
+      rotateValue: 10
+  - prefab: {fileID: 271331842562556016, guid: 686e7fb67b9b16d45b7c48b685634932, type: 3}
+    color: {r: 1.7882353, g: 7.247059, b: 0, a: 0}
+    health: 80
+    healthPerLevel: 20
+    attackPower: 100
+    attackPowerPerLevel: 10
+    reloadSpeed: 100
+    reloadSpeedPerLevel: 10
+    experience: 8
+    experiencePerLevel: 3
+    moveStates:
+    - move: 1
+      attack: 3
+      time: 2
+      attackPowerScale: 0
+      reloadTime: 0
+      moveValue: 8
+      rotateValue: 4
+    - move: 3
+      attack: 2
+      time: 4
+      attackPowerScale: 5
+      reloadTime: 0.5
+      moveValue: 0
+      rotateValue: 2
+    - move: 2
+      attack: 2
+      time: 3
+      attackPowerScale: 5
+      reloadTime: 0.5
+      moveValue: 2
+      rotateValue: 3
+  - prefab: {fileID: 271331842562556016, guid: 884a17fa6a698124ca3759dd244efb23, type: 3}
+    color: {r: 7.2470584, g: 0, b: 3.1611612, a: 0}
+    health: 130
+    healthPerLevel: 30
+    attackPower: 100
+    attackPowerPerLevel: 10
+    reloadSpeed: 100
+    reloadSpeedPerLevel: 10
+    experience: 15
+    experiencePerLevel: 4
+    moveStates:
+    - move: 0
+      attack: 3
+      time: 1
+      attackPowerScale: 0
+      reloadTime: 0
+      moveValue: 2
+      rotateValue: 0
+    - move: 1
+      attack: 2
+      time: 3
+      attackPowerScale: 8
+      reloadTime: 0.9
+      moveValue: 2
+      rotateValue: 5
+    - move: 2
+      attack: 3
+      time: 2
+      attackPowerScale: 0
+      reloadTime: 0
+      moveValue: 5
+      rotateValue: 3
+    - move: 3
+      attack: 0
+      time: 3
+      attackPowerScale: 8
+      reloadTime: 0.8
+      moveValue: 5
+      rotateValue: 6

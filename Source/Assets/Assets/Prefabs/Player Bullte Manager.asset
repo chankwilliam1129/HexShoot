@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c23c8d925ada4478082adcf9c08baf, type: 3}
+  m_Name: Player Bullte Manager
+  m_EditorClassIdentifier: 
+  bullteList:
+  - prefab: {fileID: 7051642636161158724, guid: 72ca014d8b041b04a8560875315aacd0,
+      type: 3}
+    damage: 8
+    reloadSpeed: 0.3
+    moveSpeed: 100
+  - prefab: {fileID: 7051642636161158724, guid: 5b7845e9ee0f11a4e8675cc31b8ae283,
+      type: 3}
+    damage: 25
+    reloadSpeed: 1
+    moveSpeed: 75

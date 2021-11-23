@@ -1,0 +1,1339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a4a83928c8fd34ca11095a83b1404e, type: 3}
+  m_Name: Map Basic Manager
+  m_EditorClassIdentifier: 
+  data:
+  - name: 00,09
+    vector: {x: 0, y: 9}
+    type: 2
+    level: 1
+  - name: 00,10
+    vector: {x: 0, y: 10}
+    type: 3
+    level: 1
+  - name: 00,11
+    vector: {x: 0, y: 11}
+    type: 2
+    level: 1
+  - name: 01,07
+    vector: {x: 1, y: 7}
+    type: 0
+    level: 1
+  - name: 01,08
+    vector: {x: 1, y: 8}
+    type: 0
+    level: 1
+  - name: 01,09
+    vector: {x: 1, y: 9}
+    type: 0
+    level: 1
+  - name: 01,10
+    vector: {x: 1, y: 10}
+    type: 2
+    level: 1
+  - name: 01,11
+    vector: {x: 1, y: 11}
+    type: 0
+    level: 1
+  - name: 01,12
+    vector: {x: 1, y: 12}
+    type: 0
+    level: 1
+  - name: 01,13
+    vector: {x: 1, y: 13}
+    type: 0
+    level: 1
+  - name: 02,05
+    vector: {x: 2, y: 5}
+    type: 0
+    level: 1
+  - name: 02,06
+    vector: {x: 2, y: 6}
+    type: 0
+    level: 1
+  - name: 02,07
+    vector: {x: 2, y: 7}
+    type: 0
+    level: 1
+  - name: 02,08
+    vector: {x: 2, y: 8}
+    type: 0
+    level: 1
+  - name: 02,09
+    vector: {x: 2, y: 9}
+    type: 0
+    level: 1
+  - name: 02,10
+    vector: {x: 2, y: 10}
+    type: 0
+    level: 1
+  - name: 02,11
+    vector: {x: 2, y: 11}
+    type: 0
+    level: 1
+  - name: 02,12
+    vector: {x: 2, y: 12}
+    type: 0
+    level: 1
+  - name: 02,13
+    vector: {x: 2, y: 13}
+    type: 0
+    level: 1
+  - name: 02,14
+    vector: {x: 2, y: 14}
+    type: 0
+    level: 1
+  - name: 02,15
+    vector: {x: 2, y: 15}
+    type: 0
+    level: 1
+  - name: 03,03
+    vector: {x: 3, y: 3}
+    type: 0
+    level: 1
+  - name: 03,04
+    vector: {x: 3, y: 4}
+    type: 0
+    level: 1
+  - name: 03,05
+    vector: {x: 3, y: 5}
+    type: 0
+    level: 1
+  - name: 03,06
+    vector: {x: 3, y: 6}
+    type: 0
+    level: 1
+  - name: 03,07
+    vector: {x: 3, y: 7}
+    type: 0
+    level: 1
+  - name: 03,08
+    vector: {x: 3, y: 8}
+    type: 0
+    level: 1
+  - name: 03,09
+    vector: {x: 3, y: 9}
+    type: 0
+    level: 1
+  - name: 03,10
+    vector: {x: 3, y: 10}
+    type: 0
+    level: 1
+  - name: 03,11
+    vector: {x: 3, y: 11}
+    type: 0
+    level: 1
+  - name: 03,12
+    vector: {x: 3, y: 12}
+    type: 0
+    level: 1
+  - name: 03,13
+    vector: {x: 3, y: 13}
+    type: 0
+    level: 1
+  - name: 03,14
+    vector: {x: 3, y: 14}
+    type: 0
+    level: 1
+  - name: 03,15
+    vector: {x: 3, y: 15}
+    type: 0
+    level: 1
+  - name: 03,16
+    vector: {x: 3, y: 16}
+    type: 0
+    level: 1
+  - name: 03,17
+    vector: {x: 3, y: 17}
+    type: 0
+    level: 1
+  - name: 04,01
+    vector: {x: 4, y: 1}
+    type: 2
+    level: 1
+  - name: 04,02
+    vector: {x: 4, y: 2}
+    type: 0
+    level: 1
+  - name: 04,03
+    vector: {x: 4, y: 3}
+    type: 0
+    level: 1
+  - name: 04,04
+    vector: {x: 4, y: 4}
+    type: 0
+    level: 1
+  - name: 04,05
+    vector: {x: 4, y: 5}
+    type: 0
+    level: 1
+  - name: 04,06
+    vector: {x: 4, y: 6}
+    type: 0
+    level: 1
+  - name: 04,07
+    vector: {x: 4, y: 7}
+    type: 0
+    level: 1
+  - name: 04,08
+    vector: {x: 4, y: 8}
+    type: 0
+    level: 1
+  - name: 04,09
+    vector: {x: 4, y: 9}
+    type: 0
+    level: 1
+  - name: 04,10
+    vector: {x: 4, y: 10}
+    type: 0
+    level: 1
+  - name: 04,11
+    vector: {x: 4, y: 11}
+    type: 0
+    level: 1
+  - name: 04,12
+    vector: {x: 4, y: 12}
+    type: 0
+    level: 1
+  - name: 04,13
+    vector: {x: 4, y: 13}
+    type: 0
+    level: 1
+  - name: 04,14
+    vector: {x: 4, y: 14}
+    type: 0
+    level: 1
+  - name: 04,15
+    vector: {x: 4, y: 15}
+    type: 0
+    level: 1
+  - name: 04,16
+    vector: {x: 4, y: 16}
+    type: 0
+    level: 1
+  - name: 04,17
+    vector: {x: 4, y: 17}
+    type: 0
+    level: 1
+  - name: 04,18
+    vector: {x: 4, y: 18}
+    type: 0
+    level: 1
+  - name: 04,19
+    vector: {x: 4, y: 19}
+    type: 2
+    level: 1
+  - name: 05,00
+    vector: {x: 5, y: 0}
+    type: 3
+    level: 1
+  - name: 05,01
+    vector: {x: 5, y: 1}
+    type: 2
+    level: 1
+  - name: 05,02
+    vector: {x: 5, y: 2}
+    type: 0
+    level: 1
+  - name: 05,03
+    vector: {x: 5, y: 3}
+    type: 0
+    level: 1
+  - name: 05,04
+    vector: {x: 5, y: 4}
+    type: 0
+    level: 1
+  - name: 05,05
+    vector: {x: 5, y: 5}
+    type: 0
+    level: 1
+  - name: 05,06
+    vector: {x: 5, y: 6}
+    type: 0
+    level: 1
+  - name: 05,07
+    vector: {x: 5, y: 7}
+    type: 0
+    level: 1
+  - name: 05,08
+    vector: {x: 5, y: 8}
+    type: 0
+    level: 1
+  - name: 05,09
+    vector: {x: 5, y: 9}
+    type: 0
+    level: 1
+  - name: 05,10
+    vector: {x: 5, y: 10}
+    type: 0
+    level: 1
+  - name: 05,11
+    vector: {x: 5, y: 11}
+    type: 0
+    level: 1
+  - name: 05,12
+    vector: {x: 5, y: 12}
+    type: 0
+    level: 1
+  - name: 05,13
+    vector: {x: 5, y: 13}
+    type: 0
+    level: 1
+  - name: 05,14
+    vector: {x: 5, y: 14}
+    type: 0
+    level: 1
+  - name: 05,15
+    vector: {x: 5, y: 15}
+    type: 0
+    level: 1
+  - name: 05,16
+    vector: {x: 5, y: 16}
+    type: 0
+    level: 1
+  - name: 05,17
+    vector: {x: 5, y: 17}
+    type: 0
+    level: 1
+  - name: 05,18
+    vector: {x: 5, y: 18}
+    type: 0
+    level: 1
+  - name: 05,19
+    vector: {x: 5, y: 19}
+    type: 2
+    level: 1
+  - name: 05,20
+    vector: {x: 5, y: 20}
+    type: 3
+    level: 1
+  - name: 06,00
+    vector: {x: 6, y: 0}
+    type: 2
+    level: 1
+  - name: 06,01
+    vector: {x: 6, y: 1}
+    type: 0
+    level: 1
+  - name: 06,02
+    vector: {x: 6, y: 2}
+    type: 0
+    level: 1
+  - name: 06,03
+    vector: {x: 6, y: 3}
+    type: 0
+    level: 1
+  - name: 06,04
+    vector: {x: 6, y: 4}
+    type: 0
+    level: 1
+  - name: 06,05
+    vector: {x: 6, y: 5}
+    type: 0
+    level: 1
+  - name: 06,06
+    vector: {x: 6, y: 6}
+    type: 0
+    level: 1
+  - name: 06,07
+    vector: {x: 6, y: 7}
+    type: 0
+    level: 1
+  - name: 06,08
+    vector: {x: 6, y: 8}
+    type: 0
+    level: 1
+  - name: 06,09
+    vector: {x: 6, y: 9}
+    type: 0
+    level: 1
+  - name: 06,10
+    vector: {x: 6, y: 10}
+    type: 0
+    level: 1
+  - name: 06,11
+    vector: {x: 6, y: 11}
+    type: 0
+    level: 1
+  - name: 06,12
+    vector: {x: 6, y: 12}
+    type: 0
+    level: 1
+  - name: 06,13
+    vector: {x: 6, y: 13}
+    type: 0
+    level: 1
+  - name: 06,14
+    vector: {x: 6, y: 14}
+    type: 0
+    level: 1
+  - name: 06,15
+    vector: {x: 6, y: 15}
+    type: 0
+    level: 1
+  - name: 06,16
+    vector: {x: 6, y: 16}
+    type: 0
+    level: 1
+  - name: 06,17
+    vector: {x: 6, y: 17}
+    type: 0
+    level: 1
+  - name: 06,18
+    vector: {x: 6, y: 18}
+    type: 0
+    level: 1
+  - name: 06,19
+    vector: {x: 6, y: 19}
+    type: 0
+    level: 1
+  - name: 06,20
+    vector: {x: 6, y: 20}
+    type: 2
+    level: 1
+  - name: 07,00
+    vector: {x: 7, y: 0}
+    type: 0
+    level: 1
+  - name: 07,01
+    vector: {x: 7, y: 1}
+    type: 0
+    level: 1
+  - name: 07,02
+    vector: {x: 7, y: 2}
+    type: 0
+    level: 1
+  - name: 07,03
+    vector: {x: 7, y: 3}
+    type: 0
+    level: 1
+  - name: 07,04
+    vector: {x: 7, y: 4}
+    type: 0
+    level: 1
+  - name: 07,05
+    vector: {x: 7, y: 5}
+    type: 0
+    level: 1
+  - name: 07,06
+    vector: {x: 7, y: 6}
+    type: 0
+    level: 1
+  - name: 07,07
+    vector: {x: 7, y: 7}
+    type: 0
+    level: 1
+  - name: 07,08
+    vector: {x: 7, y: 8}
+    type: 0
+    level: 1
+  - name: 07,09
+    vector: {x: 7, y: 9}
+    type: 0
+    level: 1
+  - name: 07,10
+    vector: {x: 7, y: 10}
+    type: 0
+    level: 1
+  - name: 07,11
+    vector: {x: 7, y: 11}
+    type: 0
+    level: 1
+  - name: 07,12
+    vector: {x: 7, y: 12}
+    type: 0
+    level: 1
+  - name: 07,13
+    vector: {x: 7, y: 13}
+    type: 0
+    level: 1
+  - name: 07,14
+    vector: {x: 7, y: 14}
+    type: 0
+    level: 1
+  - name: 07,15
+    vector: {x: 7, y: 15}
+    type: 0
+    level: 1
+  - name: 07,16
+    vector: {x: 7, y: 16}
+    type: 0
+    level: 1
+  - name: 07,17
+    vector: {x: 7, y: 17}
+    type: 0
+    level: 1
+  - name: 07,18
+    vector: {x: 7, y: 18}
+    type: 0
+    level: 1
+  - name: 07,19
+    vector: {x: 7, y: 19}
+    type: 0
+    level: 1
+  - name: 07,20
+    vector: {x: 7, y: 20}
+    type: 0
+    level: 1
+  - name: 08,00
+    vector: {x: 8, y: 0}
+    type: 0
+    level: 1
+  - name: 08,01
+    vector: {x: 8, y: 1}
+    type: 0
+    level: 1
+  - name: 08,02
+    vector: {x: 8, y: 2}
+    type: 0
+    level: 1
+  - name: 08,03
+    vector: {x: 8, y: 3}
+    type: 0
+    level: 1
+  - name: 08,04
+    vector: {x: 8, y: 4}
+    type: 0
+    level: 1
+  - name: 08,05
+    vector: {x: 8, y: 5}
+    type: 0
+    level: 1
+  - name: 08,06
+    vector: {x: 8, y: 6}
+    type: 0
+    level: 1
+  - name: 08,07
+    vector: {x: 8, y: 7}
+    type: 0
+    level: 1
+  - name: 08,08
+    vector: {x: 8, y: 8}
+    type: 0
+    level: 1
+  - name: 08,09
+    vector: {x: 8, y: 9}
+    type: 0
+    level: 1
+  - name: 08,10
+    vector: {x: 8, y: 10}
+    type: 0
+    level: 1
+  - name: 08,11
+    vector: {x: 8, y: 11}
+    type: 0
+    level: 1
+  - name: 08,12
+    vector: {x: 8, y: 12}
+    type: 0
+    level: 1
+  - name: 08,13
+    vector: {x: 8, y: 13}
+    type: 0
+    level: 1
+  - name: 08,14
+    vector: {x: 8, y: 14}
+    type: 0
+    level: 1
+  - name: 08,15
+    vector: {x: 8, y: 15}
+    type: 0
+    level: 1
+  - name: 08,16
+    vector: {x: 8, y: 16}
+    type: 0
+    level: 1
+  - name: 08,17
+    vector: {x: 8, y: 17}
+    type: 0
+    level: 1
+  - name: 08,18
+    vector: {x: 8, y: 18}
+    type: 0
+    level: 1
+  - name: 08,19
+    vector: {x: 8, y: 19}
+    type: 0
+    level: 1
+  - name: 08,20
+    vector: {x: 8, y: 20}
+    type: 0
+    level: 1
+  - name: 09,00
+    vector: {x: 9, y: 0}
+    type: 0
+    level: 1
+  - name: 09,01
+    vector: {x: 9, y: 1}
+    type: 0
+    level: 1
+  - name: 09,02
+    vector: {x: 9, y: 2}
+    type: 0
+    level: 1
+  - name: 09,03
+    vector: {x: 9, y: 3}
+    type: 0
+    level: 1
+  - name: 09,04
+    vector: {x: 9, y: 4}
+    type: 0
+    level: 1
+  - name: 09,05
+    vector: {x: 9, y: 5}
+    type: 0
+    level: 1
+  - name: 09,06
+    vector: {x: 9, y: 6}
+    type: 0
+    level: 1
+  - name: 09,07
+    vector: {x: 9, y: 7}
+    type: 0
+    level: 1
+  - name: 09,08
+    vector: {x: 9, y: 8}
+    type: 0
+    level: 1
+  - name: 09,09
+    vector: {x: 9, y: 9}
+    type: 1
+    level: 1
+  - name: 09,10
+    vector: {x: 9, y: 10}
+    type: 1
+    level: 1
+  - name: 09,11
+    vector: {x: 9, y: 11}
+    type: 1
+    level: 1
+  - name: 09,12
+    vector: {x: 9, y: 12}
+    type: 0
+    level: 1
+  - name: 09,13
+    vector: {x: 9, y: 13}
+    type: 0
+    level: 1
+  - name: 09,14
+    vector: {x: 9, y: 14}
+    type: 0
+    level: 1
+  - name: 09,15
+    vector: {x: 9, y: 15}
+    type: 0
+    level: 1
+  - name: 09,16
+    vector: {x: 9, y: 16}
+    type: 0
+    level: 1
+  - name: 09,17
+    vector: {x: 9, y: 17}
+    type: 0
+    level: 1
+  - name: 09,18
+    vector: {x: 9, y: 18}
+    type: 0
+    level: 1
+  - name: 09,19
+    vector: {x: 9, y: 19}
+    type: 0
+    level: 1
+  - name: 09,20
+    vector: {x: 9, y: 20}
+    type: 0
+    level: 1
+  - name: 10,00
+    vector: {x: 10, y: 0}
+    type: 0
+    level: 1
+  - name: 10,01
+    vector: {x: 10, y: 1}
+    type: 0
+    level: 1
+  - name: 10,02
+    vector: {x: 10, y: 2}
+    type: 0
+    level: 1
+  - name: 10,03
+    vector: {x: 10, y: 3}
+    type: 0
+    level: 1
+  - name: 10,04
+    vector: {x: 10, y: 4}
+    type: 0
+    level: 1
+  - name: 10,05
+    vector: {x: 10, y: 5}
+    type: 0
+    level: 1
+  - name: 10,06
+    vector: {x: 10, y: 6}
+    type: 0
+    level: 1
+  - name: 10,07
+    vector: {x: 10, y: 7}
+    type: 0
+    level: 1
+  - name: 10,08
+    vector: {x: 10, y: 8}
+    type: 0
+    level: 1
+  - name: 10,09
+    vector: {x: 10, y: 9}
+    type: 1
+    level: 1
+  - name: 10,10
+    vector: {x: 10, y: 10}
+    type: 1
+    level: 1
+  - name: 10,11
+    vector: {x: 10, y: 11}
+    type: 1
+    level: 1
+  - name: 10,12
+    vector: {x: 10, y: 12}
+    type: 0
+    level: 1
+  - name: 10,13
+    vector: {x: 10, y: 13}
+    type: 0
+    level: 1
+  - name: 10,14
+    vector: {x: 10, y: 14}
+    type: 0
+    level: 1
+  - name: 10,15
+    vector: {x: 10, y: 15}
+    type: 0
+    level: 1
+  - name: 10,16
+    vector: {x: 10, y: 16}
+    type: 0
+    level: 1
+  - name: 10,17
+    vector: {x: 10, y: 17}
+    type: 0
+    level: 1
+  - name: 10,18
+    vector: {x: 10, y: 18}
+    type: 0
+    level: 1
+  - name: 10,19
+    vector: {x: 10, y: 19}
+    type: 0
+    level: 1
+  - name: 10,20
+    vector: {x: 10, y: 20}
+    type: 0
+    level: 1
+  - name: 11,00
+    vector: {x: 11, y: 0}
+    type: 0
+    level: 1
+  - name: 11,01
+    vector: {x: 11, y: 1}
+    type: 0
+    level: 1
+  - name: 11,02
+    vector: {x: 11, y: 2}
+    type: 0
+    level: 1
+  - name: 11,03
+    vector: {x: 11, y: 3}
+    type: 0
+    level: 1
+  - name: 11,04
+    vector: {x: 11, y: 4}
+    type: 0
+    level: 1
+  - name: 11,05
+    vector: {x: 11, y: 5}
+    type: 0
+    level: 1
+  - name: 11,06
+    vector: {x: 11, y: 6}
+    type: 0
+    level: 1
+  - name: 11,07
+    vector: {x: 11, y: 7}
+    type: 0
+    level: 1
+  - name: 11,08
+    vector: {x: 11, y: 8}
+    type: 0
+    level: 1
+  - name: 11,09
+    vector: {x: 11, y: 9}
+    type: 0
+    level: 1
+  - name: 11,10
+    vector: {x: 11, y: 10}
+    type: 1
+    level: 1
+  - name: 11,11
+    vector: {x: 11, y: 11}
+    type: 0
+    level: 1
+  - name: 11,12
+    vector: {x: 11, y: 12}
+    type: 0
+    level: 1
+  - name: 11,13
+    vector: {x: 11, y: 13}
+    type: 0
+    level: 1
+  - name: 11,14
+    vector: {x: 11, y: 14}
+    type: 0
+    level: 1
+  - name: 11,15
+    vector: {x: 11, y: 15}
+    type: 0
+    level: 1
+  - name: 11,16
+    vector: {x: 11, y: 16}
+    type: 0
+    level: 1
+  - name: 11,17
+    vector: {x: 11, y: 17}
+    type: 0
+    level: 1
+  - name: 11,18
+    vector: {x: 11, y: 18}
+    type: 0
+    level: 1
+  - name: 11,19
+    vector: {x: 11, y: 19}
+    type: 0
+    level: 1
+  - name: 11,20
+    vector: {x: 11, y: 20}
+    type: 0
+    level: 1
+  - name: 12,00
+    vector: {x: 12, y: 0}
+    type: 0
+    level: 1
+  - name: 12,01
+    vector: {x: 12, y: 1}
+    type: 0
+    level: 1
+  - name: 12,02
+    vector: {x: 12, y: 2}
+    type: 0
+    level: 1
+  - name: 12,03
+    vector: {x: 12, y: 3}
+    type: 0
+    level: 1
+  - name: 12,04
+    vector: {x: 12, y: 4}
+    type: 0
+    level: 1
+  - name: 12,05
+    vector: {x: 12, y: 5}
+    type: 0
+    level: 1
+  - name: 12,06
+    vector: {x: 12, y: 6}
+    type: 0
+    level: 1
+  - name: 12,07
+    vector: {x: 12, y: 7}
+    type: 0
+    level: 1
+  - name: 12,08
+    vector: {x: 12, y: 8}
+    type: 0
+    level: 1
+  - name: 12,09
+    vector: {x: 12, y: 9}
+    type: 0
+    level: 1
+  - name: 12,10
+    vector: {x: 12, y: 10}
+    type: 0
+    level: 1
+  - name: 12,11
+    vector: {x: 12, y: 11}
+    type: 0
+    level: 1
+  - name: 12,12
+    vector: {x: 12, y: 12}
+    type: 0
+    level: 1
+  - name: 12,13
+    vector: {x: 12, y: 13}
+    type: 0
+    level: 1
+  - name: 12,14
+    vector: {x: 12, y: 14}
+    type: 0
+    level: 1
+  - name: 12,15
+    vector: {x: 12, y: 15}
+    type: 0
+    level: 1
+  - name: 12,16
+    vector: {x: 12, y: 16}
+    type: 0
+    level: 1
+  - name: 12,17
+    vector: {x: 12, y: 17}
+    type: 0
+    level: 1
+  - name: 12,18
+    vector: {x: 12, y: 18}
+    type: 0
+    level: 1
+  - name: 12,19
+    vector: {x: 12, y: 19}
+    type: 0
+    level: 1
+  - name: 12,20
+    vector: {x: 12, y: 20}
+    type: 0
+    level: 1
+  - name: 13,00
+    vector: {x: 13, y: 0}
+    type: 0
+    level: 1
+  - name: 13,01
+    vector: {x: 13, y: 1}
+    type: 0
+    level: 1
+  - name: 13,02
+    vector: {x: 13, y: 2}
+    type: 0
+    level: 1
+  - name: 13,03
+    vector: {x: 13, y: 3}
+    type: 0
+    level: 1
+  - name: 13,04
+    vector: {x: 13, y: 4}
+    type: 0
+    level: 1
+  - name: 13,05
+    vector: {x: 13, y: 5}
+    type: 0
+    level: 1
+  - name: 13,06
+    vector: {x: 13, y: 6}
+    type: 0
+    level: 1
+  - name: 13,07
+    vector: {x: 13, y: 7}
+    type: 0
+    level: 1
+  - name: 13,08
+    vector: {x: 13, y: 8}
+    type: 0
+    level: 1
+  - name: 13,09
+    vector: {x: 13, y: 9}
+    type: 0
+    level: 1
+  - name: 13,10
+    vector: {x: 13, y: 10}
+    type: 0
+    level: 1
+  - name: 13,11
+    vector: {x: 13, y: 11}
+    type: 0
+    level: 1
+  - name: 13,12
+    vector: {x: 13, y: 12}
+    type: 0
+    level: 1
+  - name: 13,13
+    vector: {x: 13, y: 13}
+    type: 0
+    level: 1
+  - name: 13,14
+    vector: {x: 13, y: 14}
+    type: 0
+    level: 1
+  - name: 13,15
+    vector: {x: 13, y: 15}
+    type: 0
+    level: 1
+  - name: 13,16
+    vector: {x: 13, y: 16}
+    type: 0
+    level: 1
+  - name: 13,17
+    vector: {x: 13, y: 17}
+    type: 0
+    level: 1
+  - name: 13,18
+    vector: {x: 13, y: 18}
+    type: 0
+    level: 1
+  - name: 13,19
+    vector: {x: 13, y: 19}
+    type: 0
+    level: 1
+  - name: 13,20
+    vector: {x: 13, y: 20}
+    type: 0
+    level: 1
+  - name: 14,00
+    vector: {x: 14, y: 0}
+    type: 2
+    level: 1
+  - name: 14,01
+    vector: {x: 14, y: 1}
+    type: 2
+    level: 1
+  - name: 14,02
+    vector: {x: 14, y: 2}
+    type: 0
+    level: 1
+  - name: 14,03
+    vector: {x: 14, y: 3}
+    type: 0
+    level: 1
+  - name: 14,04
+    vector: {x: 14, y: 4}
+    type: 0
+    level: 1
+  - name: 14,05
+    vector: {x: 14, y: 5}
+    type: 0
+    level: 1
+  - name: 14,06
+    vector: {x: 14, y: 6}
+    type: 0
+    level: 1
+  - name: 14,07
+    vector: {x: 14, y: 7}
+    type: 0
+    level: 1
+  - name: 14,08
+    vector: {x: 14, y: 8}
+    type: 0
+    level: 1
+  - name: 14,09
+    vector: {x: 14, y: 9}
+    type: 0
+    level: 1
+  - name: 14,10
+    vector: {x: 14, y: 10}
+    type: 0
+    level: 1
+  - name: 14,11
+    vector: {x: 14, y: 11}
+    type: 0
+    level: 1
+  - name: 14,12
+    vector: {x: 14, y: 12}
+    type: 0
+    level: 1
+  - name: 14,13
+    vector: {x: 14, y: 13}
+    type: 0
+    level: 1
+  - name: 14,14
+    vector: {x: 14, y: 14}
+    type: 0
+    level: 1
+  - name: 14,15
+    vector: {x: 14, y: 15}
+    type: 0
+    level: 1
+  - name: 14,16
+    vector: {x: 14, y: 16}
+    type: 0
+    level: 1
+  - name: 14,17
+    vector: {x: 14, y: 17}
+    type: 0
+    level: 1
+  - name: 14,18
+    vector: {x: 14, y: 18}
+    type: 0
+    level: 1
+  - name: 14,19
+    vector: {x: 14, y: 19}
+    type: 2
+    level: 1
+  - name: 14,20
+    vector: {x: 14, y: 20}
+    type: 2
+    level: 1
+  - name: 15,00
+    vector: {x: 15, y: 0}
+    type: 3
+    level: 1
+  - name: 15,01
+    vector: {x: 15, y: 1}
+    type: 2
+    level: 1
+  - name: 15,02
+    vector: {x: 15, y: 2}
+    type: 0
+    level: 1
+  - name: 15,03
+    vector: {x: 15, y: 3}
+    type: 0
+    level: 1
+  - name: 15,04
+    vector: {x: 15, y: 4}
+    type: 0
+    level: 1
+  - name: 15,05
+    vector: {x: 15, y: 5}
+    type: 0
+    level: 1
+  - name: 15,06
+    vector: {x: 15, y: 6}
+    type: 0
+    level: 1
+  - name: 15,07
+    vector: {x: 15, y: 7}
+    type: 0
+    level: 1
+  - name: 15,08
+    vector: {x: 15, y: 8}
+    type: 0
+    level: 1
+  - name: 15,09
+    vector: {x: 15, y: 9}
+    type: 0
+    level: 1
+  - name: 15,10
+    vector: {x: 15, y: 10}
+    type: 0
+    level: 1
+  - name: 15,11
+    vector: {x: 15, y: 11}
+    type: 0
+    level: 1
+  - name: 15,12
+    vector: {x: 15, y: 12}
+    type: 0
+    level: 1
+  - name: 15,13
+    vector: {x: 15, y: 13}
+    type: 0
+    level: 1
+  - name: 15,14
+    vector: {x: 15, y: 14}
+    type: 0
+    level: 1
+  - name: 15,15
+    vector: {x: 15, y: 15}
+    type: 0
+    level: 1
+  - name: 15,16
+    vector: {x: 15, y: 16}
+    type: 0
+    level: 1
+  - name: 15,17
+    vector: {x: 15, y: 17}
+    type: 0
+    level: 1
+  - name: 15,18
+    vector: {x: 15, y: 18}
+    type: 0
+    level: 1
+  - name: 15,19
+    vector: {x: 15, y: 19}
+    type: 2
+    level: 1
+  - name: 15,20
+    vector: {x: 15, y: 20}
+    type: 3
+    level: 1
+  - name: 16,02
+    vector: {x: 16, y: 2}
+    type: 0
+    level: 1
+  - name: 16,03
+    vector: {x: 16, y: 3}
+    type: 0
+    level: 1
+  - name: 16,04
+    vector: {x: 16, y: 4}
+    type: 0
+    level: 1
+  - name: 16,05
+    vector: {x: 16, y: 5}
+    type: 0
+    level: 1
+  - name: 16,06
+    vector: {x: 16, y: 6}
+    type: 0
+    level: 1
+  - name: 16,07
+    vector: {x: 16, y: 7}
+    type: 0
+    level: 1
+  - name: 16,08
+    vector: {x: 16, y: 8}
+    type: 0
+    level: 1
+  - name: 16,09
+    vector: {x: 16, y: 9}
+    type: 0
+    level: 1
+  - name: 16,10
+    vector: {x: 16, y: 10}
+    type: 0
+    level: 1
+  - name: 16,11
+    vector: {x: 16, y: 11}
+    type: 0
+    level: 1
+  - name: 16,12
+    vector: {x: 16, y: 12}
+    type: 0
+    level: 1
+  - name: 16,13
+    vector: {x: 16, y: 13}
+    type: 0
+    level: 1
+  - name: 16,14
+    vector: {x: 16, y: 14}
+    type: 0
+    level: 1
+  - name: 16,15
+    vector: {x: 16, y: 15}
+    type: 0
+    level: 1
+  - name: 16,16
+    vector: {x: 16, y: 16}
+    type: 0
+    level: 1
+  - name: 16,17
+    vector: {x: 16, y: 17}
+    type: 0
+    level: 1
+  - name: 16,18
+    vector: {x: 16, y: 18}
+    type: 0
+    level: 1
+  - name: 17,04
+    vector: {x: 17, y: 4}
+    type: 0
+    level: 1
+  - name: 17,05
+    vector: {x: 17, y: 5}
+    type: 0
+    level: 1
+  - name: 17,06
+    vector: {x: 17, y: 6}
+    type: 0
+    level: 1
+  - name: 17,07
+    vector: {x: 17, y: 7}
+    type: 0
+    level: 1
+  - name: 17,08
+    vector: {x: 17, y: 8}
+    type: 0
+    level: 1
+  - name: 17,09
+    vector: {x: 17, y: 9}
+    type: 0
+    level: 1
+  - name: 17,10
+    vector: {x: 17, y: 10}
+    type: 0
+    level: 1
+  - name: 17,11
+    vector: {x: 17, y: 11}
+    type: 0
+    level: 1
+  - name: 17,12
+    vector: {x: 17, y: 12}
+    type: 0
+    level: 1
+  - name: 17,13
+    vector: {x: 17, y: 13}
+    type: 0
+    level: 1
+  - name: 17,14
+    vector: {x: 17, y: 14}
+    type: 0
+    level: 1
+  - name: 17,15
+    vector: {x: 17, y: 15}
+    type: 0
+    level: 1
+  - name: 17,16
+    vector: {x: 17, y: 16}
+    type: 0
+    level: 1
+  - name: 18,06
+    vector: {x: 18, y: 6}
+    type: 0
+    level: 1
+  - name: 18,07
+    vector: {x: 18, y: 7}
+    type: 0
+    level: 1
+  - name: 18,08
+    vector: {x: 18, y: 8}
+    type: 0
+    level: 1
+  - name: 18,09
+    vector: {x: 18, y: 9}
+    type: 0
+    level: 1
+  - name: 18,10
+    vector: {x: 18, y: 10}
+    type: 0
+    level: 1
+  - name: 18,11
+    vector: {x: 18, y: 11}
+    type: 0
+    level: 1
+  - name: 18,12
+    vector: {x: 18, y: 12}
+    type: 0
+    level: 1
+  - name: 18,13
+    vector: {x: 18, y: 13}
+    type: 0
+    level: 1
+  - name: 18,14
+    vector: {x: 18, y: 14}
+    type: 0
+    level: 1
+  - name: 19,08
+    vector: {x: 19, y: 8}
+    type: 0
+    level: 1
+  - name: 19,09
+    vector: {x: 19, y: 9}
+    type: 2
+    level: 1
+  - name: 19,10
+    vector: {x: 19, y: 10}
+    type: 2
+    level: 1
+  - name: 19,11
+    vector: {x: 19, y: 11}
+    type: 2
+    level: 1
+  - name: 19,12
+    vector: {x: 19, y: 12}
+    type: 0
+    level: 1
+  - name: 20,10
+    vector: {x: 20, y: 10}
+    type: 3
+    level: 1
